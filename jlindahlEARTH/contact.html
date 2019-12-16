@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <ul class="nav nav-pills bg-dark text-white">
+            <li class="nav-item">
+                <a class="nav-link active bg-dark text-white" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">Environment</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="environment.html">What is Environment?</a>
+                    <a class="dropdown-item bg-dark text-white" href="biomes.html">Earth's Biomes</a>
+                    <a class="dropdown-item bg-dark text-white" href="carbonfootprint.html">Carbon Footprint</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">Activities</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="help.html">How You Can Help</a>
+                    <a class="dropdown-item bg-dark text-white" href="reduce.html">Reduce</a>
+                    <a class="dropdown-item bg-dark text-white" href="reuse.html">Reuse</a>
+                    <a class="dropdown-item bg-dark text-white" href="recycle.html">Recycle</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">Resources</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="energy.html">Energy</a>
+                    <a class="dropdown-item bg-dark text-white" href="sustainability.html">Sustainability</a>
+                    <a class="dropdown-item bg-dark text-white" href="oil.html">Oil</a>
+                    <a class="dropdown-item bg-dark text-white" href="naturalresources.html">Natural Resources</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">Technology</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="technews.html">Technology News</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">History</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="history.html">Earth's History</a>
+                    <a class="dropdown-item bg-dark text-white" href="timeline.html">Geological Timelines</a>
+                    <a class="dropdown-item bg-dark text-white" href="archaeology.html">Archaeology</a>
+                    <a class="dropdown-item bg-dark text-white" href="theory.html">Theory</a>
+                    <a class="dropdown-item bg-dark text-white" href="future.html">Our Future</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle bg-dark text-white" data-toggle="dropdown" href="#">Community</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-dark text-white" href="forums.html">Forums</a>
+                    <a class="dropdown-item bg-dark text-white" href="contact.html">Contact Us</a>
+                </div>
+            </li>
+        </ul>
+
+       
+        <div class="row">
+            <div class="container">
+                <h2>We love hearing from our visitors!</h2>
+                <p>Fill out the form below to ask questions or leave feedback. </p>
+                <form action="/action_page.php" class="was-validated">
+                    <div class="form-group">
+                        <label for="uname">Name:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your Name" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="uname">Email:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your Email Address" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-control-plaintext">
+                        <label for="uname">Message:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your message here." name="uname">
+                    </div>
+
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> I would like a response.
+                        </label>
+                    </div>
+                    <div class="container">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-dark text-white" data-toggle="modal" data-target="#myModal">
+                            Submit
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Thank you for your message!</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        We will get back to you shortly!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+        <h2>Earth Administrator Contacts</h2>
+        <br />
+        <br />
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joslyn</td>
+                    <td>Lindahl</td>
+                    <td>joslyn.lindahl@my.southeastmn.edu</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>Burd</td>
+                    <td>lildicky@email.com</td>
+                </tr>
+                <tr>
+                    <td>Leonardo</td>
+                    <td>DiCaprio</td>
+                    <td>leo@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<footer>EARTH 2019&nbsp;</footer>
+
+</html>

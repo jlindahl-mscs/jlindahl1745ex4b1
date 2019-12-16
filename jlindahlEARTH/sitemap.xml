@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<home>
+<environment>
+  <a href="environment.html">What is Environment?</a>
+  <a href="biomes.html">Earth's Biomes</a>
+  <a href="carbonfootprint.html">Carbon Footprint</a>
+</environment>
+<activities>
+  <a href="help.html">How You Can Help</a>
+  <a href="reduce.html">Reduce</a>
+  <a href="reuse.html">Reuse</a>
+  <a href="recycle.html">Recyle</a>
+</activities>
+<resources>
+  <a href="energy.html">Energy</a>
+  <a href="sustainability.html">Sustainability</a>
+  <a href="oil.html">Oil</a>
+  <a href="naturalresources.html">Natural Resources</a>
+</resources>
+<technology>
+  <a href="technews.html">Technology News</a>
+</technology>
+<history>
+  <a href="history.html">Earth's History</a>
+  <a href="timeline.html">Geological Timelines</a>
+  <a href="archaeology.html">Archaeology</a>
+  <a href="theory.html">Theory</a>
+  <a href="future.html">Our Future</a>
+</history>
+<community>
+  <a href="forums.html">Forums</a>
+  <a href="contact.html">Contact Us</a>
+</community>
+</home>
